@@ -31,5 +31,8 @@ for sentence in gardenpathSentences:
     print('------------------------')
 
 # Two entities that I looked up were "LOC" (locations) and "NORP" (nationalities or religious or political groups).
-# "LOC" appeared in the sentence "The police officer saw the drunk driver with a telescope chased him down." where "telescope" was identified as a location. This didn't make sense in terms of the word "telescope", but it's possible that spaCy was confused by the phrase "with a telescope" and thought it was referring to a location instead of an instrument.
-# "NORP" appeared in the sentence "The cotton clothing is made of grows in Mississippi." where "Mississippi" was identified as a nationality or political group. This didn't make sense in terms of the word "Mississippi", but it's possible that spaCy was confused by the fact that "Mississippi" can also refer to a tribe of Native Americans, which would fall under the "NORP" category.
+# "LOC" appeared in the sentence "The police officer saw the drunk driver with a telescope chased him down." where "telescope" was identified as a location.
+# It didn't make sense ....it's possible that spaCy was confused by the phrase "with a telescope" and thought it was referring to a location instead of an instrument.
+
+# "NORP" appeared in the sentence "The cotton clothing is made of grows in Mississippi." where "Mississippi" was identified as a nationality or political group.
+# It didn't make sense ....it's possible that spaCy was confused by the fact that "Mississippi" can also refer to a tribe of Native Americans, which would fall under the "NORP" category.
