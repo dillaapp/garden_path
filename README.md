@@ -6,8 +6,8 @@ This project is a simple task that will use spaCy, which is an external Python m
 - Python
 
 # Installtion 
-- After cloning the project please pip install -r requirements.txt into your virtual environment.
-- requirements.txt, has all the neccessary installion you have to make for the project to run correctly
+- First "pip install spacy" into your environment 
+- Then download the English model: Type this command "python -m spacy download en_core_web_sm" in your terminal
 
 # How to use the program 
 After you coloned the project and installed all the packages in the requirements.txt into your vertual environment
