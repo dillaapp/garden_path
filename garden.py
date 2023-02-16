@@ -27,7 +27,7 @@ for sentence in gardenpathSentences:
         else:
             print(token.text, token.ent_type_)
 
-    # Print a line of dashes to separate the output for each sentence
+    # Print a line of dashes to separate each sentence
     print('------------------------')
 
 # Two entities that I looked up were "LOC" (locations) and "NORP" (nationalities or religious or political groups).
